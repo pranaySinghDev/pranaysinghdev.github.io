@@ -9,12 +9,98 @@
     "twitter": "https://twitter.com/pranaysinghk",
     "medium": "https://medium.com/@pranaysinghdev",
     "instagram": "https://www.instagram.com/pranaysinghk/",
-    "experience": [
+    "experiences": [
         {
-            "title": "Senior Web Developer",
-            "company_name": "Intelitec Solutions",
+            "title": "Senior Product Developer",
+            "company": "Cloudcover Inc.",
             "description": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.",
-            "duration": "March 2013 - Present"
+            "duration": "May 2017 - Present"
+        },
+        {
+            "title": "Software Enginer",
+            "company": "HSBC software India",
+            "description": "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.",
+            "duration": "Aug 2015 - May 2017"
         }
+    ],
+    "educations": [
+        {
+            "course": "Bachelor of Engineering, Computer Science",
+            "college": "Mahakal Institute of Technology & Management,Ujjain",
+            "university": "Rajiv Gandhi Proudyogiki Vishwavidyalaya,Bhopal",
+            "duration": "2011 - 2015",
+            "score": "7.12"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Cloud Technologies",
+            "techs": [
+                "https://img.icons8.com/color/48/000000/amazon-web-services.png",
+                "https://img.icons8.com/color/48/000000/google-cloud-platform.png"
+            ]
+        },
+        {
+            "name": "Programing Languages",
+            "techs": [
+                "https://img.icons8.com/color/48/000000/golang.png",
+                "https://img.icons8.com/color/48/000000/nodejs.png",
+                "https://img.icons8.com/color/48/000000/vue-js.png"
+            ]
+        },
+        {
+            "name": "Databases",
+            "techs": [
+                "https://img.icons8.com/color/48/000000/firebase.png",
+                "https://img.icons8.com/color/48/000000/mongodb.png",
+                "https://img.icons8.com/nolan/64/sql.png",
+                "https://img.icons8.com/color/48/000000/redis.png"
+            ]
+        },
+        {
+            "name": "Version Control",
+            "techs": [
+                "https://img.icons8.com/nolan/48/github.png",
+                "https://img.icons8.com/color/48/000000/gitlab.png"
+            ]
+        },
+        {
+            "name": "Protocols",
+            "techs": [
+                "https://img.icons8.com/carbon-copy/100/000000/domain.png",
+                "https://github.com/cncf/artwork/blob/master/projects/grpc/icon/color/grpc-icon-color.png?raw=true"
+            ]
+        },
+        {
+            "name": "CI/CD",
+            "techs": [
+                "https://avatars0.githubusercontent.com/ml/1150?s=140&v=4",
+                "https://azurecomcdn.azureedge.net/cvt-079f1158552481f9943c2d767d60895ffff34f91720ab16cb08f378659edb873/images/shared/services/devops/pipelines-icon-80.png"
+            ]
+        },
+        {
+            "name": "Containerization and Orchestration",
+            "techs": [
+                "https://img.icons8.com/color/48/000000/kubernetes.png",
+                "https://img.icons8.com/color/48/000000/docker.png",
+                "https://istio.io/latest/img/istio-whitelogo-bluebackground-framed.svg"
+            ]
+        }
+    ],
+    "interests": [
+        "Apart from being a developer which is kindogf my core intrests, I enjoy most of my time being outdoors. I enjoy cycling and working out on a regular basis.",
+        "I can play decent ukulele, still at beginner level,I get enthusiastic about astronomy, physics and philosophy.",
+        "I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the microservices and container orchestration world."
+    ],
+    "workflows": [
+        "Agile Development & Scrum",
+        "Microservices",
+        "Cross Functional Teams"
+    ],
+    "awards": [
+        "Awarded with 'Automate Everything' award for automating hiring process for recruters.",
+        "Awarded with 'Take Ownership' award for taking ownership of the product end-to-end.",
+        "Awarded as top performer for HSBC Java Training (Period: 60 days)-2015.",
+        "Won an international blackberry app development completion rewarded with a blackberry Z10 and Playbook."
     ]
 }
