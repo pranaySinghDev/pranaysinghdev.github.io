@@ -1,0 +1,24 @@
+{
+  "name": "pranaysinghdev.github.io",
+  "version": "1.0.0",
+  "description": "COMING SOON",
+  "main": "index.js",
+  "dependencies": {
+    "typed.js": "^2.0.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "browsify": "watchify ./js/app.js -o ./js/app-bs.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranaySinghDev/pranaysinghdev.github.io.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pranaySinghDev/pranaysinghdev.github.io/issues"
+  },
+  "homepage": "https://github.com/pranaySinghDev/pranaysinghdev.github.io#readme"
+}

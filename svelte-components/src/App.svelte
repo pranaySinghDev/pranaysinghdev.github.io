@@ -1,23 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+<script>
+	export let dataset;
+</script>
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Pranay Singh </title>
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet"
-        type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
-</head>
-
+<main>
 <body id="page-top">
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
@@ -46,24 +31,21 @@
         <section class="resume-section" id="about">
             <div class="resume-section-content">
                 <h1 class="mb-0">
-                    Pranay
-                    <span class="text-primary">Singh</span>
+                   {dataset.first_name}
+                    <span class="text-primary">{dataset.last_name}</span>
                 </h1>
                 <div class="subheading mb-5">
-                    A803 Keshav Nagar · Mundhwa , 411036 · (91) 8516958903 ·
-                    <a href="pranaysinghdev@gmail.com">pranaysinghdev@gmail.com</a>
+                   {dataset.reaching}
+                    <a href="{dataset.email}">{dataset.email}</a>
                 </div>
-                <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis
-                    for
-                    high level overviews. Iterative approaches to corporate strategy foster collaborative thinking
-                    to
-                    further the overall value proposition.</p>
+                <p class="lead mb-5">{dataset.aspirations}</p>
                 <span class="typed"></span>
                 <div class="social-icons">
-                    <a class="social-icon" href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="social-icon" href="#"><i class="fab fa-github"></i></a>
-                    <a class="social-icon" href="#"><i class="fab fa-twitter"></i></a>
-                    <a class="social-icon" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="social-icon" href="{dataset.linkedin}" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="social-icon" href="{dataset.github}" target="_blank"><i class="fab fa-github"></i></a>
+                    <a class="social-icon" href="{dataset.twitter}" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a class="social-icon" href="{dataset.instagram}" target="_blank"><i class="fab fa-instagram"></i></a>
+					<a class="social-icon" href="{dataset.medium}" target="_blank"><i class="fab fa-medium"></i></a>
                 </div>
             </div>
         </section>
@@ -243,17 +225,30 @@
             </div>
         </section>
     </div>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-    <!-- Third party plugin JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
-
-    <script src="js/app-bs.js"></script>
-
 </body>
 
-</html>
+</main>
+
+
+
+<style>
+	main {
+		text-align: center;
+		padding: 1em;
+		max-width: 240px;
+		margin: 0 auto;
+	}
+
+	h1 {
+		color: #ff3e00;
+		text-transform: uppercase;
+		font-size: 4em;
+		font-weight: 100;
+	}
+
+	@media (min-width: 640px) {
+		main {
+			max-width: none;
+		}
+	}
+</style>
