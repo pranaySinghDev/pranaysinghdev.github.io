@@ -36,8 +36,12 @@
         {
             "name": "Cloud Technologies",
             "techs": [
+                "https://user-images.githubusercontent.com/19824574/41482054-47a3a702-70a2-11e8-9561-de51c5f71220.png",
                 "https://img.icons8.com/color/48/000000/amazon-web-services.png",
-                "https://img.icons8.com/color/48/000000/google-cloud-platform.png"
+                "https://img.icons8.com/color/48/000000/google-cloud-platform.png",
+                "https://www.terraform.io/assets/images/og-image-8b3e4f7d.png",
+                "https://istio.io/latest/img/istio-whitelogo-bluebackground-unframed.svg",
+                "https://miro.medium.com/max/440/1*rT1GZGSg0ysiqCw5mgr4WA.png"
             ]
         },
         {
@@ -89,7 +93,7 @@
     ],
     "interests": [
         "Apart from being a developer which is kindogf my core intrests, I enjoy most of my time being outdoors. I enjoy cycling and working out on a regular basis.",
-        "I can play decent ukulele, still at beginner level,I get enthusiastic about astronomy, physics and philosophy.",
+        "I can play decent ukulele,I get enthusiastic about astronomy, physics and philosophy.",
         "I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the microservices and container orchestration world."
     ],
     "workflows": [
